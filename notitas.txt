@@ -1,0 +1,14 @@
+1- res.sendFile --> archivo (imagen, video, audio, documento)
+2- res.json --> json
+3- res.send --> texto(String)
+                texto con html y css
+4- res.status --> estado
+                    |
+                    |-> 200= ok
+                        304= ok del cache
+                        404= no encontradp
+                        500= error de servidor
+
+
+(__DIRNAME +)
+da la ruta del proyecto
